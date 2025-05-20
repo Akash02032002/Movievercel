@@ -48,7 +48,7 @@ const Cards = ({ searchQuery }) => {
         currentRecords.map((e) => (
           <Link to={`/detail/${e.id}`} key={e.id}>
             <div className="card font-medium shadow-lg p-2 hover:-translate-y-3 cursor-pointer mt-6 transition-all duration-500">
-              <img className="h-[350px] w-[250px] object-cover rounded-[10px] m-[5px] md: h-72 " src={e.image} alt={e.title} />
+              <img className="h-[350px] w-[150px] object-cover rounded-[10px] m-[5px] md: h-72 " src={e.image} alt={e.title} />
               <h1>{e.title}</h1>
               <h1 className="flex items-center">
                 <span className="text-gray-500 mr-1">Rating:</span>
